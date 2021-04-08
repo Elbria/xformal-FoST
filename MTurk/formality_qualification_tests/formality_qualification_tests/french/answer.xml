@@ -1,0 +1,407 @@
+<AnswerKey xmlns="http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/AnswerKey.xsd">
+  <Question>
+    <QuestionIdentifier>fr_0</QuestionIdentifier>
+
+          <AnswerOption>
+              <SelectionIdentifier>3_minus</SelectionIdentifier>
+              <AnswerScore>1</AnswerScore>
+          </AnswerOption>
+
+          <AnswerOption>
+              <SelectionIdentifier>2_minus</SelectionIdentifier>
+              <AnswerScore>1</AnswerScore>
+          </AnswerOption>
+
+          <AnswerOption>
+              <SelectionIdentifier>1_minus</SelectionIdentifier>
+              <AnswerScore>0</AnswerScore>
+          </AnswerOption>
+
+          <AnswerOption>
+              <SelectionIdentifier>zero</SelectionIdentifier>
+              <AnswerScore>0</AnswerScore>
+          </AnswerOption>
+
+          <AnswerOption>
+              <SelectionIdentifier>1_plus</SelectionIdentifier>
+              <AnswerScore>0</AnswerScore>
+          </AnswerOption>
+
+          <AnswerOption>
+              <SelectionIdentifier>2_plus</SelectionIdentifier>
+              <AnswerScore>0</AnswerScore>
+          </AnswerOption>
+
+          <AnswerOption>
+              <SelectionIdentifier>3_plus</SelectionIdentifier>
+              <AnswerScore>0</AnswerScore>
+          </AnswerOption>
+
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>fr_1</QuestionIdentifier>
+
+          <AnswerOption>
+              <SelectionIdentifier>3_minus</SelectionIdentifier>
+              <AnswerScore>0</AnswerScore>
+          </AnswerOption>
+
+          <AnswerOption>
+              <SelectionIdentifier>2_minus</SelectionIdentifier>
+              <AnswerScore>0</AnswerScore>
+          </AnswerOption>
+
+          <AnswerOption>
+              <SelectionIdentifier>1_minus</SelectionIdentifier>
+              <AnswerScore>0</AnswerScore>
+          </AnswerOption>
+
+          <AnswerOption>
+              <SelectionIdentifier>zero</SelectionIdentifier>
+              <AnswerScore>0</AnswerScore>
+          </AnswerOption>
+
+          <AnswerOption>
+              <SelectionIdentifier>1_plus</SelectionIdentifier>
+              <AnswerScore>1</AnswerScore>
+          </AnswerOption>
+
+          <AnswerOption>
+              <SelectionIdentifier>2_plus</SelectionIdentifier>
+              <AnswerScore>1</AnswerScore>
+          </AnswerOption>
+
+          <AnswerOption>
+              <SelectionIdentifier>3_plus</SelectionIdentifier>
+              <AnswerScore>1</AnswerScore>
+          </AnswerOption>
+
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>fr_2</QuestionIdentifier>
+
+          <AnswerOption>
+              <SelectionIdentifier>3_minus</SelectionIdentifier>
+              <AnswerScore>0</AnswerScore>
+          </AnswerOption>
+
+          <AnswerOption>
+              <SelectionIdentifier>2_minus</SelectionIdentifier>
+              <AnswerScore>0</AnswerScore>
+          </AnswerOption>
+
+          <AnswerOption>
+              <SelectionIdentifier>1_minus</SelectionIdentifier>
+              <AnswerScore>0</AnswerScore>
+          </AnswerOption>
+
+          <AnswerOption>
+              <SelectionIdentifier>zero</SelectionIdentifier>
+              <AnswerScore>0</AnswerScore>
+          </AnswerOption>
+
+          <AnswerOption>
+              <SelectionIdentifier>1_plus</SelectionIdentifier>
+              <AnswerScore>0</AnswerScore>
+          </AnswerOption>
+
+          <AnswerOption>
+              <SelectionIdentifier>2_plus</SelectionIdentifier>
+              <AnswerScore>1</AnswerScore>
+          </AnswerOption>
+
+          <AnswerOption>
+              <SelectionIdentifier>3_plus</SelectionIdentifier>
+              <AnswerScore>1</AnswerScore>
+          </AnswerOption>
+
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>fr_3</QuestionIdentifier>
+
+          <AnswerOption>
+              <SelectionIdentifier>3_minus</SelectionIdentifier>
+              <AnswerScore>0</AnswerScore>
+          </AnswerOption>
+
+          <AnswerOption>
+              <SelectionIdentifier>2_minus</SelectionIdentifier>
+              <AnswerScore>0</AnswerScore>
+          </AnswerOption>
+
+          <AnswerOption>
+              <SelectionIdentifier>1_minus</SelectionIdentifier>
+              <AnswerScore>0</AnswerScore>
+          </AnswerOption>
+
+          <AnswerOption>
+              <SelectionIdentifier>zero</SelectionIdentifier>
+              <AnswerScore>1</AnswerScore>
+          </AnswerOption>
+
+          <AnswerOption>
+              <SelectionIdentifier>1_plus</SelectionIdentifier>
+              <AnswerScore>1</AnswerScore>
+          </AnswerOption>
+
+          <AnswerOption>
+              <SelectionIdentifier>2_plus</SelectionIdentifier>
+              <AnswerScore>1</AnswerScore>
+          </AnswerOption>
+
+          <AnswerOption>
+              <SelectionIdentifier>3_plus</SelectionIdentifier>
+              <AnswerScore>0</AnswerScore>
+          </AnswerOption>
+
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>fr_4</QuestionIdentifier>
+
+          <AnswerOption>
+              <SelectionIdentifier>3_minus</SelectionIdentifier>
+              <AnswerScore>1</AnswerScore>
+          </AnswerOption>
+
+          <AnswerOption>
+              <SelectionIdentifier>2_minus</SelectionIdentifier>
+              <AnswerScore>1</AnswerScore>
+          </AnswerOption>
+
+          <AnswerOption>
+              <SelectionIdentifier>1_minus</SelectionIdentifier>
+              <AnswerScore>1</AnswerScore>
+          </AnswerOption>
+
+          <AnswerOption>
+              <SelectionIdentifier>zero</SelectionIdentifier>
+              <AnswerScore>0</AnswerScore>
+          </AnswerOption>
+
+          <AnswerOption>
+              <SelectionIdentifier>1_plus</SelectionIdentifier>
+              <AnswerScore>0</AnswerScore>
+          </AnswerOption>
+
+          <AnswerOption>
+              <SelectionIdentifier>2_plus</SelectionIdentifier>
+              <AnswerScore>0</AnswerScore>
+          </AnswerOption>
+
+          <AnswerOption>
+              <SelectionIdentifier>3_plus</SelectionIdentifier>
+              <AnswerScore>0</AnswerScore>
+          </AnswerOption>
+
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>fr_5</QuestionIdentifier>
+
+          <AnswerOption>
+              <SelectionIdentifier>3_minus</SelectionIdentifier>
+              <AnswerScore>0</AnswerScore>
+          </AnswerOption>
+
+          <AnswerOption>
+              <SelectionIdentifier>2_minus</SelectionIdentifier>
+              <AnswerScore>1</AnswerScore>
+          </AnswerOption>
+
+          <AnswerOption>
+              <SelectionIdentifier>1_minus</SelectionIdentifier>
+              <AnswerScore>1</AnswerScore>
+          </AnswerOption>
+
+          <AnswerOption>
+              <SelectionIdentifier>zero</SelectionIdentifier>
+              <AnswerScore>1</AnswerScore>
+          </AnswerOption>
+
+          <AnswerOption>
+              <SelectionIdentifier>1_plus</SelectionIdentifier>
+              <AnswerScore>0</AnswerScore>
+          </AnswerOption>
+
+          <AnswerOption>
+              <SelectionIdentifier>2_plus</SelectionIdentifier>
+              <AnswerScore>0</AnswerScore>
+          </AnswerOption>
+
+          <AnswerOption>
+              <SelectionIdentifier>3_plus</SelectionIdentifier>
+              <AnswerScore>0</AnswerScore>
+          </AnswerOption>
+
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>fr_6</QuestionIdentifier>
+
+          <AnswerOption>
+              <SelectionIdentifier>3_minus</SelectionIdentifier>
+              <AnswerScore>1</AnswerScore>
+          </AnswerOption>
+
+          <AnswerOption>
+              <SelectionIdentifier>2_minus</SelectionIdentifier>
+              <AnswerScore>1</AnswerScore>
+          </AnswerOption>
+
+          <AnswerOption>
+              <SelectionIdentifier>1_minus</SelectionIdentifier>
+              <AnswerScore>1</AnswerScore>
+          </AnswerOption>
+
+          <AnswerOption>
+              <SelectionIdentifier>zero</SelectionIdentifier>
+              <AnswerScore>0</AnswerScore>
+          </AnswerOption>
+
+          <AnswerOption>
+              <SelectionIdentifier>1_plus</SelectionIdentifier>
+              <AnswerScore>0</AnswerScore>
+          </AnswerOption>
+
+          <AnswerOption>
+              <SelectionIdentifier>2_plus</SelectionIdentifier>
+              <AnswerScore>0</AnswerScore>
+          </AnswerOption>
+
+          <AnswerOption>
+              <SelectionIdentifier>3_plus</SelectionIdentifier>
+              <AnswerScore>0</AnswerScore>
+          </AnswerOption>
+
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>fr_7</QuestionIdentifier>
+
+          <AnswerOption>
+              <SelectionIdentifier>3_minus</SelectionIdentifier>
+              <AnswerScore>0</AnswerScore>
+          </AnswerOption>
+
+          <AnswerOption>
+              <SelectionIdentifier>2_minus</SelectionIdentifier>
+              <AnswerScore>0</AnswerScore>
+          </AnswerOption>
+
+          <AnswerOption>
+              <SelectionIdentifier>1_minus</SelectionIdentifier>
+              <AnswerScore>0</AnswerScore>
+          </AnswerOption>
+
+          <AnswerOption>
+              <SelectionIdentifier>zero</SelectionIdentifier>
+              <AnswerScore>1</AnswerScore>
+          </AnswerOption>
+
+          <AnswerOption>
+              <SelectionIdentifier>1_plus</SelectionIdentifier>
+              <AnswerScore>1</AnswerScore>
+          </AnswerOption>
+
+          <AnswerOption>
+              <SelectionIdentifier>2_plus</SelectionIdentifier>
+              <AnswerScore>1</AnswerScore>
+          </AnswerOption>
+
+          <AnswerOption>
+              <SelectionIdentifier>3_plus</SelectionIdentifier>
+              <AnswerScore>0</AnswerScore>
+          </AnswerOption>
+
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>fr_8</QuestionIdentifier>
+
+          <AnswerOption>
+              <SelectionIdentifier>3_minus</SelectionIdentifier>
+              <AnswerScore>0</AnswerScore>
+          </AnswerOption>
+
+          <AnswerOption>
+              <SelectionIdentifier>2_minus</SelectionIdentifier>
+              <AnswerScore>1</AnswerScore>
+          </AnswerOption>
+
+          <AnswerOption>
+              <SelectionIdentifier>1_minus</SelectionIdentifier>
+              <AnswerScore>1</AnswerScore>
+          </AnswerOption>
+
+          <AnswerOption>
+              <SelectionIdentifier>zero</SelectionIdentifier>
+              <AnswerScore>1</AnswerScore>
+          </AnswerOption>
+
+          <AnswerOption>
+              <SelectionIdentifier>1_plus</SelectionIdentifier>
+              <AnswerScore>0</AnswerScore>
+          </AnswerOption>
+
+          <AnswerOption>
+              <SelectionIdentifier>2_plus</SelectionIdentifier>
+              <AnswerScore>0</AnswerScore>
+          </AnswerOption>
+
+          <AnswerOption>
+              <SelectionIdentifier>3_plus</SelectionIdentifier>
+              <AnswerScore>0</AnswerScore>
+          </AnswerOption>
+
+  </Question>
+
+  <Question>
+    <QuestionIdentifier>fr_9</QuestionIdentifier>
+
+          <AnswerOption>
+              <SelectionIdentifier>3_minus</SelectionIdentifier>
+              <AnswerScore>0</AnswerScore>
+          </AnswerOption>
+
+          <AnswerOption>
+              <SelectionIdentifier>2_minus</SelectionIdentifier>
+              <AnswerScore>0</AnswerScore>
+          </AnswerOption>
+
+          <AnswerOption>
+              <SelectionIdentifier>1_minus</SelectionIdentifier>
+              <AnswerScore>0</AnswerScore>
+          </AnswerOption>
+
+          <AnswerOption>
+              <SelectionIdentifier>zero</SelectionIdentifier>
+              <AnswerScore>1</AnswerScore>
+          </AnswerOption>
+
+          <AnswerOption>
+              <SelectionIdentifier>1_plus</SelectionIdentifier>
+              <AnswerScore>1</AnswerScore>
+          </AnswerOption>
+
+          <AnswerOption>
+              <SelectionIdentifier>2_plus</SelectionIdentifier>
+              <AnswerScore>1</AnswerScore>
+          </AnswerOption>
+
+          <AnswerOption>
+              <SelectionIdentifier>3_plus</SelectionIdentifier>
+              <AnswerScore>0</AnswerScore>
+          </AnswerOption>
+
+  </Question>
+
+  <QualificationValueMapping>
+    <PercentageMapping>
+      <MaximumSummedScore>10</MaximumSummedScore>
+    </PercentageMapping>
+  </QualificationValueMapping>
+</AnswerKey>

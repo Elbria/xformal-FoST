@@ -1,0 +1,714 @@
+<QuestionForm xmlns='http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd'>
+
+  <Question>
+
+      <QuestionIdentifier>pt_0</QuestionIdentifier>
+      <DisplayName>Q0</DisplayName>
+      <IsRequired>true</IsRequired>
+
+
+      <QuestionContent>
+            <Text> Quão formal é a frase abaixo?</Text>
+
+                   		<EmbeddedBinary>
+            			<EmbeddedMimeType>
+               				<Type>image</Type>
+               				<SubType>png</SubType>
+            			</EmbeddedMimeType>
+            			<DataURL>http://s3.amazonaws.com/com.dataminr.mturkcv/public/formaltext/pt_0.png</DataURL>
+            			<AltText>english-sentence</AltText>
+            			<Width>700</Width>
+            			<Height>200</Height>
+         		</EmbeddedBinary>
+
+      </QuestionContent>
+
+      <AnswerSpecification>
+
+        <SelectionAnswer>
+          <StyleSuggestion>radiobutton</StyleSuggestion>
+
+          <Selections>
+
+                 <Selection>
+                  <SelectionIdentifier>3_minus</SelectionIdentifier>
+                  <Text>-3 (Muito informal)</Text>
+                 </Selection>
+
+                  <Selection>
+                  <SelectionIdentifier>2_minus</SelectionIdentifier>
+                  <Text>-2</Text>
+                   </Selection>
+
+                  <Selection>
+                  <SelectionIdentifier>1_minus</SelectionIdentifier>
+                  <Text>-1</Text>
+                  </Selection>
+
+                 <Selection>
+                  <SelectionIdentifier>zero</SelectionIdentifier>
+                  <Text>0</Text>
+                 </Selection>
+
+                 <Selection>
+                  <SelectionIdentifier>1_plus</SelectionIdentifier>
+                  <Text>+1</Text>
+                 </Selection>
+
+                 <Selection>
+                  <SelectionIdentifier>2_plus</SelectionIdentifier>
+                  <Text>+2</Text>
+                 </Selection>
+
+                 <Selection>
+                  <SelectionIdentifier>3_plus</SelectionIdentifier>
+                  <Text>+3 (Muito formal)</Text>
+                 </Selection>
+
+          </Selections>
+        </SelectionAnswer>
+      </AnswerSpecification>
+
+  </Question>
+
+  <Question>
+
+      <QuestionIdentifier>pt_1</QuestionIdentifier>
+      <DisplayName>Q1</DisplayName>
+      <IsRequired>true</IsRequired>
+
+
+      <QuestionContent>
+            <Text> Quão formal é a frase abaixo?</Text>
+
+                   		<EmbeddedBinary>
+            			<EmbeddedMimeType>
+               				<Type>image</Type>
+               				<SubType>png</SubType>
+            			</EmbeddedMimeType>
+            			<DataURL>http://s3.amazonaws.com/com.dataminr.mturkcv/public/formaltext/pt_1.png</DataURL>
+            			<AltText>english-sentence</AltText>
+            			<Width>700</Width>
+            			<Height>200</Height>
+         		</EmbeddedBinary>
+
+      </QuestionContent>
+
+      <AnswerSpecification>
+
+        <SelectionAnswer>
+          <StyleSuggestion>radiobutton</StyleSuggestion>
+
+          <Selections>
+
+                 <Selection>
+                  <SelectionIdentifier>3_minus</SelectionIdentifier>
+                  <Text>-3 (Muito informal)</Text>
+                 </Selection>
+
+                  <Selection>
+                  <SelectionIdentifier>2_minus</SelectionIdentifier>
+                  <Text>-2</Text>
+                   </Selection>
+
+                  <Selection>
+                  <SelectionIdentifier>1_minus</SelectionIdentifier>
+                  <Text>-1</Text>
+                  </Selection>
+
+                 <Selection>
+                  <SelectionIdentifier>zero</SelectionIdentifier>
+                  <Text>0</Text>
+                 </Selection>
+
+                 <Selection>
+                  <SelectionIdentifier>1_plus</SelectionIdentifier>
+                  <Text>+1</Text>
+                 </Selection>
+
+                 <Selection>
+                  <SelectionIdentifier>2_plus</SelectionIdentifier>
+                  <Text>+2</Text>
+                 </Selection>
+
+                 <Selection>
+                  <SelectionIdentifier>3_plus</SelectionIdentifier>
+                  <Text>+3 (Muito formal)</Text>
+                 </Selection>
+
+          </Selections>
+        </SelectionAnswer>
+      </AnswerSpecification>
+
+  </Question>
+
+
+      <Question>
+
+      <QuestionIdentifier>pt_2</QuestionIdentifier>
+      <DisplayName>Q2</DisplayName>
+      <IsRequired>true</IsRequired>
+
+
+      <QuestionContent>
+            <Text> Quão formal é a frase abaixo?</Text>
+
+                   		<EmbeddedBinary>
+            			<EmbeddedMimeType>
+               				<Type>image</Type>
+               				<SubType>png</SubType>
+            			</EmbeddedMimeType>
+            			<DataURL>http://s3.amazonaws.com/com.dataminr.mturkcv/public/formaltext/pt_2.png</DataURL>
+            			<AltText>english-sentence</AltText>
+            			<Width>700</Width>
+            			<Height>200</Height>
+         		</EmbeddedBinary>
+
+      </QuestionContent>
+
+      <AnswerSpecification>
+
+        <SelectionAnswer>
+          <StyleSuggestion>radiobutton</StyleSuggestion>
+
+          <Selections>
+
+                 <Selection>
+                  <SelectionIdentifier>3_minus</SelectionIdentifier>
+                  <Text>-3 (Muito informal)</Text>
+                 </Selection>
+
+                  <Selection>
+                  <SelectionIdentifier>2_minus</SelectionIdentifier>
+                  <Text>-2</Text>
+                   </Selection>
+
+                  <Selection>
+                  <SelectionIdentifier>1_minus</SelectionIdentifier>
+                  <Text>-1</Text>
+                  </Selection>
+
+                 <Selection>
+                  <SelectionIdentifier>zero</SelectionIdentifier>
+                  <Text>0</Text>
+                 </Selection>
+
+                 <Selection>
+                  <SelectionIdentifier>1_plus</SelectionIdentifier>
+                  <Text>+1</Text>
+                 </Selection>
+
+                 <Selection>
+                  <SelectionIdentifier>2_plus</SelectionIdentifier>
+                  <Text>+2</Text>
+                 </Selection>
+
+                 <Selection>
+                  <SelectionIdentifier>3_plus</SelectionIdentifier>
+                  <Text>+3 (Muito formal)</Text>
+                 </Selection>
+
+          </Selections>
+        </SelectionAnswer>
+      </AnswerSpecification>
+
+  </Question>
+
+  <Question>
+
+      <QuestionIdentifier>pt_3</QuestionIdentifier>
+      <DisplayName>Q3</DisplayName>
+      <IsRequired>true</IsRequired>
+
+
+      <QuestionContent>
+            <Text> Quão formal é a frase abaixo?</Text>
+
+                   		<EmbeddedBinary>
+            			<EmbeddedMimeType>
+               				<Type>image</Type>
+               				<SubType>png</SubType>
+            			</EmbeddedMimeType>
+            			<DataURL>http://s3.amazonaws.com/com.dataminr.mturkcv/public/formaltext/pt_3.png</DataURL>
+            			<AltText>english-sentence</AltText>
+            			<Width>700</Width>
+            			<Height>200</Height>
+         		</EmbeddedBinary>
+
+      </QuestionContent>
+
+      <AnswerSpecification>
+
+        <SelectionAnswer>
+          <StyleSuggestion>radiobutton</StyleSuggestion>
+
+          <Selections>
+
+                 <Selection>
+                  <SelectionIdentifier>3_minus</SelectionIdentifier>
+                  <Text>-3 (Muito informal)</Text>
+                 </Selection>
+
+                  <Selection>
+                  <SelectionIdentifier>2_minus</SelectionIdentifier>
+                  <Text>-2</Text>
+                   </Selection>
+
+                  <Selection>
+                  <SelectionIdentifier>1_minus</SelectionIdentifier>
+                  <Text>-1</Text>
+                  </Selection>
+
+                 <Selection>
+                  <SelectionIdentifier>zero</SelectionIdentifier>
+                  <Text>0</Text>
+                 </Selection>
+
+                 <Selection>
+                  <SelectionIdentifier>1_plus</SelectionIdentifier>
+                  <Text>+1</Text>
+                 </Selection>
+
+                 <Selection>
+                  <SelectionIdentifier>2_plus</SelectionIdentifier>
+                  <Text>+2</Text>
+                 </Selection>
+
+                 <Selection>
+                  <SelectionIdentifier>3_plus</SelectionIdentifier>
+                  <Text>+3 (Muito formal)</Text>
+                 </Selection>
+
+          </Selections>
+        </SelectionAnswer>
+      </AnswerSpecification>
+
+  </Question>
+
+  <Question>
+
+      <QuestionIdentifier>pt_4</QuestionIdentifier>
+      <DisplayName>Q4</DisplayName>
+      <IsRequired>true</IsRequired>
+
+
+      <QuestionContent>
+            <Text> Quão formal é a frase abaixo?</Text>
+
+                   		<EmbeddedBinary>
+            			<EmbeddedMimeType>
+               				<Type>image</Type>
+               				<SubType>png</SubType>
+            			</EmbeddedMimeType>
+            			<DataURL>http://s3.amazonaws.com/com.dataminr.mturkcv/public/formaltext/pt_4.png</DataURL>
+            			<AltText>english-sentence</AltText>
+            			<Width>700</Width>
+            			<Height>200</Height>
+         		</EmbeddedBinary>
+
+      </QuestionContent>
+
+      <AnswerSpecification>
+
+        <SelectionAnswer>
+          <StyleSuggestion>radiobutton</StyleSuggestion>
+
+          <Selections>
+
+                 <Selection>
+                  <SelectionIdentifier>3_minus</SelectionIdentifier>
+                  <Text>-3 (Muito informal)</Text>
+                 </Selection>
+
+                  <Selection>
+                  <SelectionIdentifier>2_minus</SelectionIdentifier>
+                  <Text>-2</Text>
+                   </Selection>
+
+                  <Selection>
+                  <SelectionIdentifier>1_minus</SelectionIdentifier>
+                  <Text>-1</Text>
+                  </Selection>
+
+                 <Selection>
+                  <SelectionIdentifier>zero</SelectionIdentifier>
+                  <Text>0</Text>
+                 </Selection>
+
+                 <Selection>
+                  <SelectionIdentifier>1_plus</SelectionIdentifier>
+                  <Text>+1</Text>
+                 </Selection>
+
+                 <Selection>
+                  <SelectionIdentifier>2_plus</SelectionIdentifier>
+                  <Text>+2</Text>
+                 </Selection>
+
+                 <Selection>
+                  <SelectionIdentifier>3_plus</SelectionIdentifier>
+                  <Text>+3 (Muito formal)</Text>
+                 </Selection>
+
+          </Selections>
+        </SelectionAnswer>
+      </AnswerSpecification>
+
+  </Question>
+
+  <Question>
+
+      <QuestionIdentifier>pt_5</QuestionIdentifier>
+      <DisplayName>Q5</DisplayName>
+      <IsRequired>true</IsRequired>
+
+
+      <QuestionContent>
+            <Text> Quão formal é a frase abaixo?</Text>
+
+                   		<EmbeddedBinary>
+            			<EmbeddedMimeType>
+               				<Type>image</Type>
+               				<SubType>png</SubType>
+            			</EmbeddedMimeType>
+            			<DataURL>http://s3.amazonaws.com/com.dataminr.mturkcv/public/formaltext/pt_5.png</DataURL>
+            			<AltText>english-sentence</AltText>
+            			<Width>700</Width>
+            			<Height>200</Height>
+         		</EmbeddedBinary>
+
+      </QuestionContent>
+
+      <AnswerSpecification>
+
+        <SelectionAnswer>
+          <StyleSuggestion>radiobutton</StyleSuggestion>
+
+          <Selections>
+
+                 <Selection>
+                  <SelectionIdentifier>3_minus</SelectionIdentifier>
+                  <Text>-3 (Muito informal)</Text>
+                 </Selection>
+
+                  <Selection>
+                  <SelectionIdentifier>2_minus</SelectionIdentifier>
+                  <Text>-2</Text>
+                   </Selection>
+
+                  <Selection>
+                  <SelectionIdentifier>1_minus</SelectionIdentifier>
+                  <Text>-1</Text>
+                  </Selection>
+
+                 <Selection>
+                  <SelectionIdentifier>zero</SelectionIdentifier>
+                  <Text>0</Text>
+                 </Selection>
+
+                 <Selection>
+                  <SelectionIdentifier>1_plus</SelectionIdentifier>
+                  <Text>+1</Text>
+                 </Selection>
+
+                 <Selection>
+                  <SelectionIdentifier>2_plus</SelectionIdentifier>
+                  <Text>+2</Text>
+                 </Selection>
+
+                 <Selection>
+                  <SelectionIdentifier>3_plus</SelectionIdentifier>
+                  <Text>+3 (Muito formal)</Text>
+                 </Selection>
+
+          </Selections>
+        </SelectionAnswer>
+      </AnswerSpecification>
+
+  </Question>
+
+  <Question>
+
+      <QuestionIdentifier>pt_6</QuestionIdentifier>
+      <DisplayName>Q6</DisplayName>
+      <IsRequired>true</IsRequired>
+
+
+      <QuestionContent>
+            <Text> Quão formal é a frase abaixo?</Text>
+
+                   		<EmbeddedBinary>
+            			<EmbeddedMimeType>
+               				<Type>image</Type>
+               				<SubType>png</SubType>
+            			</EmbeddedMimeType>
+            			<DataURL>http://s3.amazonaws.com/com.dataminr.mturkcv/public/formaltext/pt_7.png</DataURL>
+            			<AltText>english-sentence</AltText>
+            			<Width>700</Width>
+            			<Height>200</Height>
+         		</EmbeddedBinary>
+
+      </QuestionContent>
+
+      <AnswerSpecification>
+
+        <SelectionAnswer>
+          <StyleSuggestion>radiobutton</StyleSuggestion>
+
+          <Selections>
+
+                 <Selection>
+                  <SelectionIdentifier>3_minus</SelectionIdentifier>
+                  <Text>-3 (Muito informal)</Text>
+                 </Selection>
+
+                  <Selection>
+                  <SelectionIdentifier>2_minus</SelectionIdentifier>
+                  <Text>-2</Text>
+                   </Selection>
+
+                  <Selection>
+                  <SelectionIdentifier>1_minus</SelectionIdentifier>
+                  <Text>-1</Text>
+                  </Selection>
+
+                 <Selection>
+                  <SelectionIdentifier>zero</SelectionIdentifier>
+                  <Text>0</Text>
+                 </Selection>
+
+                 <Selection>
+                  <SelectionIdentifier>1_plus</SelectionIdentifier>
+                  <Text>+1</Text>
+                 </Selection>
+
+                 <Selection>
+                  <SelectionIdentifier>2_plus</SelectionIdentifier>
+                  <Text>+2</Text>
+                 </Selection>
+
+                 <Selection>
+                  <SelectionIdentifier>3_plus</SelectionIdentifier>
+                  <Text>+3 (Muito formal)</Text>
+                 </Selection>
+
+          </Selections>
+        </SelectionAnswer>
+      </AnswerSpecification>
+
+  </Question>
+
+  <Question>
+
+      <QuestionIdentifier>pt_7</QuestionIdentifier>
+      <DisplayName>Q7</DisplayName>
+      <IsRequired>true</IsRequired>
+
+
+      <QuestionContent>
+            <Text> Quão formal é a frase abaixo?</Text>
+
+                   		<EmbeddedBinary>
+            			<EmbeddedMimeType>
+               				<Type>image</Type>
+               				<SubType>png</SubType>
+            			</EmbeddedMimeType>
+            			<DataURL>http://s3.amazonaws.com/com.dataminr.mturkcv/public/formaltext/pt_9.png</DataURL>
+            			<AltText>english-sentence</AltText>
+            			<Width>700</Width>
+            			<Height>200</Height>
+         		</EmbeddedBinary>
+
+      </QuestionContent>
+
+      <AnswerSpecification>
+
+        <SelectionAnswer>
+          <StyleSuggestion>radiobutton</StyleSuggestion>
+
+          <Selections>
+
+                 <Selection>
+                  <SelectionIdentifier>3_minus</SelectionIdentifier>
+                  <Text>-3 (Muito informal)</Text>
+                 </Selection>
+
+                  <Selection>
+                  <SelectionIdentifier>2_minus</SelectionIdentifier>
+                  <Text>-2</Text>
+                   </Selection>
+
+                  <Selection>
+                  <SelectionIdentifier>1_minus</SelectionIdentifier>
+                  <Text>-1</Text>
+                  </Selection>
+
+                 <Selection>
+                  <SelectionIdentifier>zero</SelectionIdentifier>
+                  <Text>0</Text>
+                 </Selection>
+
+                 <Selection>
+                  <SelectionIdentifier>1_plus</SelectionIdentifier>
+                  <Text>+1</Text>
+                 </Selection>
+
+                 <Selection>
+                  <SelectionIdentifier>2_plus</SelectionIdentifier>
+                  <Text>+2</Text>
+                 </Selection>
+
+                 <Selection>
+                  <SelectionIdentifier>3_plus</SelectionIdentifier>
+                  <Text>+3 (Muito formal)</Text>
+                 </Selection>
+
+          </Selections>
+        </SelectionAnswer>
+      </AnswerSpecification>
+
+  </Question>
+
+  <Question>
+
+      <QuestionIdentifier>pt_8</QuestionIdentifier>
+      <DisplayName>Q8</DisplayName>
+      <IsRequired>true</IsRequired>
+
+
+      <QuestionContent>
+            <Text> Quão formal é a frase abaixo?</Text>
+
+                   		<EmbeddedBinary>
+            			<EmbeddedMimeType>
+               				<Type>image</Type>
+               				<SubType>png</SubType>
+            			</EmbeddedMimeType>
+            			<DataURL>http://s3.amazonaws.com/com.dataminr.mturkcv/public/formaltext/pt_10.png</DataURL>
+            			<AltText>english-sentence</AltText>
+            			<Width>700</Width>
+            			<Height>200</Height>
+         		</EmbeddedBinary>
+
+      </QuestionContent>
+
+      <AnswerSpecification>
+
+        <SelectionAnswer>
+          <StyleSuggestion>radiobutton</StyleSuggestion>
+
+          <Selections>
+
+                 <Selection>
+                  <SelectionIdentifier>3_minus</SelectionIdentifier>
+                  <Text>-3 (Muito informal)</Text>
+                 </Selection>
+
+                  <Selection>
+                  <SelectionIdentifier>2_minus</SelectionIdentifier>
+                  <Text>-2</Text>
+                   </Selection>
+
+                  <Selection>
+                  <SelectionIdentifier>1_minus</SelectionIdentifier>
+                  <Text>-1</Text>
+                  </Selection>
+
+                 <Selection>
+                  <SelectionIdentifier>zero</SelectionIdentifier>
+                  <Text>0</Text>
+                 </Selection>
+
+                 <Selection>
+                  <SelectionIdentifier>1_plus</SelectionIdentifier>
+                  <Text>+1</Text>
+                 </Selection>
+
+                 <Selection>
+                  <SelectionIdentifier>2_plus</SelectionIdentifier>
+                  <Text>+2</Text>
+                 </Selection>
+
+                 <Selection>
+                  <SelectionIdentifier>3_plus</SelectionIdentifier>
+                  <Text>+3 (Muito formal)</Text>
+                 </Selection>
+
+          </Selections>
+        </SelectionAnswer>
+      </AnswerSpecification>
+
+  </Question>
+
+  <Question>
+
+      <QuestionIdentifier>pt_9</QuestionIdentifier>
+      <DisplayName>Q9</DisplayName>
+      <IsRequired>true</IsRequired>
+
+
+      <QuestionContent>
+            <Text> Quão formal é a frase abaixo?</Text>
+
+                   		<EmbeddedBinary>
+            			<EmbeddedMimeType>
+               				<Type>image</Type>
+               				<SubType>png</SubType>
+            			</EmbeddedMimeType>
+            			<DataURL>http://s3.amazonaws.com/com.dataminr.mturkcv/public/formaltext/pt_13.png</DataURL>
+            			<AltText>english-sentence</AltText>
+            			<Width>700</Width>
+            			<Height>200</Height>
+         		</EmbeddedBinary>
+
+      </QuestionContent>
+
+      <AnswerSpecification>
+
+        <SelectionAnswer>
+          <StyleSuggestion>radiobutton</StyleSuggestion>
+
+          <Selections>
+
+                 <Selection>
+                  <SelectionIdentifier>3_minus</SelectionIdentifier>
+                  <Text>-3 (Muito informal)</Text>
+                 </Selection>
+
+                  <Selection>
+                  <SelectionIdentifier>2_minus</SelectionIdentifier>
+                  <Text>-2</Text>
+                   </Selection>
+
+                  <Selection>
+                  <SelectionIdentifier>1_minus</SelectionIdentifier>
+                  <Text>-1</Text>
+                  </Selection>
+
+                 <Selection>
+                  <SelectionIdentifier>zero</SelectionIdentifier>
+                  <Text>0</Text>
+                 </Selection>
+
+                 <Selection>
+                  <SelectionIdentifier>1_plus</SelectionIdentifier>
+                  <Text>+1</Text>
+                 </Selection>
+
+                 <Selection>
+                  <SelectionIdentifier>2_plus</SelectionIdentifier>
+                  <Text>+2</Text>
+                 </Selection>
+
+                 <Selection>
+                  <SelectionIdentifier>3_plus</SelectionIdentifier>
+                  <Text>+3 (Muito formal)</Text>
+                 </Selection>
+
+          </Selections>
+        </SelectionAnswer>
+      </AnswerSpecification>
+
+  </Question>
+
+</QuestionForm>

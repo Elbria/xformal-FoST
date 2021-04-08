@@ -1,0 +1,51 @@
+<!-- You must include this JavaScript file -->
+<script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
+
+<!-- For the full list of available Crowd HTML Elements and their input/output documentation,
+      please refer to https://docs.aws.amazon.com/sagemaker/latest/dg/sms-ui-template-reference.html -->
+
+<!-- You must include crowd-form so that your task submits answers to MTurk -->
+<crowd-form answer-format="flatten-objects">
+
+    <p style="font-family:verdana">
+    
+    Starting from the <b style="color:blue; font-size:13px">INFORMAL SENTENCE</b> below, you are asked to rank 5 <b style="color:orange; font-size:13px">CANDIDATE SENTENCES</b>
+    (<strong>A,B,C,D, and E</strong>) </br> with respect to <u style="color:red;">how good formal rewrites </u> of the informal sentence are. 
+    
+    </br>While doing so you should take into account: 
+    <ul>
+        <li style="font-family:verdana">the <u>formality</u> of the candidate sentence</li>
+        <li style="font-family:verdana">the <u>fluency</u> of the candidate sentence and,</li>
+        <li style="font-family:verdana">its <u>similarity</u> to the informal sentence.</li>
+    </ul>
+    
+    <p style="font-family:verdana">
+    The top ranking candidate should be the one that is the most formal, fluent and similar to the informal sentence in meaning.  </br>
+    An example of a <u style="color:red;">good</u> candidate that should rank high is given under the <b style="color:green; font-size:13px">FORMAL SENTENCE</b>, below.
+    </p>
+    </p>
+
+        
+        <div style="width:90%; border: 2px solid grey; padding: 10px;">
+        	<p><u><b style="font-family:verdana; color:blue; font-size:13px">INFORMAL SENTENCE:</b></u> ${informal}</p>
+        	<p><u><b style="font-family:verdana; color:green; font-size:13px">FORMAL SENTENCE:</b></u> ${formal}</p>
+        </div>
+        
+        <p></p>
+
+        <div style="width:90%; border: 2px solid orange; padding: 10px;">
+        	    <p><u><b style="font-family:verdana; color:orange; font-size:13px">CANDIDATE SENTENCES: </b></u></p>
+                <p><strong>A : </strong> ${sysA}</p>
+                <p><strong>B : </strong> ${sysB}</p>
+                <p><strong>C : </strong> ${sysC}</p>
+                <p><strong>D : </strong> ${sysD}</p>
+                <p><strong>E : </strong> ${sysE}</p>
+        </div>
+    
+        <p></p>
+
+    <crowd-input label="Rank the candidate sentences starting from the best to the worst. Once you insert a valid ranking this text will turn blue (e.g., in a ranking where B is the best candidate and C the worst, insert BAEDC.)" placeholder="Insert ranking here!" error-message="The input is not valid. Make sure you do not use small caps, commas and rank all 5 systems." auto-validate=true allowed-pattern="[A-E]" min-length="5" max-length="5" name="tag1" required></crowd-input>
+    <p></p>
+
+
+</crowd-form>

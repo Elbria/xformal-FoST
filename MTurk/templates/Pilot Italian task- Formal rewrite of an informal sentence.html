@@ -1,0 +1,69 @@
+<!-- You must include this JavaScript file -->
+<script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
+
+<!-- For the full list of available Crowd HTML Elements and their input/output documentation,
+      please refer to https://docs.aws.amazon.com/sagemaker/latest/dg/sms-ui-template-reference.html -->
+
+<!-- You must include crowd-form so that your task submits answers to MTurk -->
+<crowd-form answer-format="flatten-objects">
+
+    <crowd-instructions link-text="View instructions" link-type="button">
+        <short-summary>
+            <p>Given an <strong>informal sentence</strong>, generate its <strong>formal rewrite</strong> in Italian, <u>without changing its meaning</u>.</p>
+        </short-summary>
+
+        <detailed-instructions>
+            <h3>Generate a formal rewrite of an informal sentence</h3>
+            <p>
+              Given an informal sentence, provide us with its informal rewrite. The informal rewrite should only change the
+              formality attribute of the original sentence and preserve its meaning. Each sentence should be treated 
+              independently while rewrites should only rely on the information available in the sentences. There is no need 
+              to guess what additional information might be available in the documents the sentences come from.
+        </p>
+        </detailed-instructions>
+
+        <positive-example>
+            <h3>Informal sentence (example in English)</h3>
+            <p>Wow, I am very dumb in my observation skills......</p>
+
+            <h3>Formal rewrite</h3>
+            <p>I do not have good observation skills.</p>
+            
+            <h3>Reasoning</h3>
+            <p>Formality is properly transferred and meaning is preserved.</p>
+        </positive-example>
+
+
+        <negative-example>
+            <h3>Informal sentence (example in English)</h3>
+            <p>Wow, I am very dumb in my observation skills......</p>
+
+            <h3>Formal rewrite</h3>
+            <p>Wow, I am very foolish in my observation skills.</p>
+            
+            <h3>Reasoning</h3>
+            <p>Formality is not properly transferred.</p>
+
+        </negative-example>
+
+        <negative-example>
+            <h3>Informal sentence (example in English)</h3>
+            <p>Wow, I am very dumb in my observation skills......</p>
+
+            <h3>Formal rewrite</h3>
+            <p>I am very unintelligent and I don't have good observation skills.</p>
+            
+            <h3>Reasoning</h3>
+            <p>Meaning has changed.</p>
+
+        </negative-example>
+
+
+    </crowd-instructions>
+
+    <p>Given the <strong>informal sentence</strong> below, generate its <strong>formal rewrite</strong> in <strong>Italian</strong> <u>without changing its meaning</u>.</p>
+    <!-- Your contexts and intents will be substituted for the "context" and "intent" variables when you 
+           publish a batch with an input file containing multiple contexts and intents -->
+    <p><strong>informal sentence: </strong>${sentence}</p>
+    <crowd-input name="utterance" placeholder="insert formal rewrite in Italian here" required></crowd-input>
+</crowd-form>

@@ -1,0 +1,62 @@
+<!-- You must include this JavaScript file -->
+<script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
+
+<!-- For the full list of available Crowd HTML Elements and their input/output documentation,
+      please refer to https://docs.aws.amazon.com/sagemaker/latest/dg/sms-ui-template-reference.html -->
+
+<!-- You must include crowd-form so that your task submits answers to MTurk -->
+<crowd-form answer-format="flatten-objects">
+
+
+    <crowd-classifier 
+      header="You are asked to rate the fluency of a sentence in Italian. (Make sure you have read the full instructions before performing the task)"
+      name="fluency"
+      categories="['1 Other', '2 Incomprehensible', '3 Somewhat Comprehensible', '4 Comprehensible', '5 Perfect']" 
+    >
+    <classification-target>
+    <p>
+        <strong>Sentence : </strong>
+        ${sentence}
+    </p>
+
+    </classification-target>
+
+
+    <short-instructions>
+        Rate the fluency of a sentence <strong>Please refer to the full instructions before performing the task.</strong>
+    </short-instructions>
+
+    <full-instructions header="Task instructions">
+        
+        <ul>
+        
+        <li>
+        <strong>Perfect</strong> The sentence is well-formed grammatically, contains correct spellings, adheres to common use of terms, titles and names, is intuitavely acceptable and has a clear meaning.
+        </li>
+    
+        <li>
+        <strong>Comprehensible</strong> The sentence has a minor grammatical error that does not affect understanding, <i>e.g., what is the best ways to learn programming</i>
+        </li>
+        
+        <li>
+        <strong>Somewhat Comprehensible</strong>
+        The sentence is basically fluent and has more than one minor grammatical errors or one serious grammatical error that does not have
+        strong impact on understanding, <i>e.g. what some good book for read</i>
+        </li>
+        
+        <li>
+        <strong>Incomprehensible</strong> The sentence is not fluent and you can not understand what it means but it is still in the form of human language, <i>e.g. what is the best movie of movie</i>
+        </li>
+        
+        <li>
+        <strong>Other</strong> The sentence is incomplete or a fragment.  
+        </li>
+        
+        </ul>
+     
+    </full-instructions>
+
+   
+
+    </crowd-classifier>
+</crowd-form>

@@ -1,0 +1,51 @@
+<!-- You must include this JavaScript file -->
+<script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
+
+<!-- For the full list of available Crowd HTML Elements and their input/output documentation,
+      please refer to https://docs.aws.amazon.com/sagemaker/latest/dg/sms-ui-template-reference.html -->
+<!-- You must include crowd-form so that your task submits answers to MTurk -->
+<crowd-form>
+
+
+
+  <div style="margin-left: 5px">
+      <h4>Which of the following languages can you fluently read and write in and how many years of experience do you have with them?</h4>
+      <br/>
+  </div>
+
+  <div style="margin-left: 50px;margin-right: 50px;">
+        <p>${italian}</p>&nbsp;&nbsp;
+      <crowd-checkbox name="length" value="it_0_1">Less than 2 years</crowd-checkbox>
+      <crowd-checkbox name="length" value="it_1+">More than 2 years</crowd-checkbox>
+      <crowd-checkbox name="length" value="it_native">Native</crowd-checkbox>
+      <br/><br/>
+        <p>${french}</p>&nbsp;&nbsp;
+      <crowd-checkbox name="length" value="fr_0_1">Less than 2 years</crowd-checkbox>
+      <crowd-checkbox name="length" value="fr_1+">More than 2 years</crowd-checkbox>
+      <crowd-checkbox name="length" value="fr_native">Native</crowd-checkbox>
+      <br/><br/>
+      <p>${spanish}</p>&nbsp;&nbsp;
+      <crowd-checkbox name="length" value="es_0_1">Less than 2 years</crowd-checkbox>
+      <crowd-checkbox name="length" value="es_1+">More than 2 years</crowd-checkbox>
+      <crowd-checkbox name="length" value="es_native">Native</crowd-checkbox>
+      <br/><br/>
+      <p>${german}</p>&nbsp;&nbsp;
+      <crowd-checkbox name="length" value="de_0_1">Less than 2 years</crowd-checkbox>
+      <crowd-checkbox name="length" value="de_1+">More than 2 years</crowd-checkbox>
+      <crowd-checkbox name="length" value="de_native">Native</crowd-checkbox>
+      <br/><br/>
+      <p>${portuguese}</p>&nbsp;&nbsp;&nbsp;
+      <crowd-checkbox name="length" value="pt_0_1">Less than 2 years</crowd-checkbox>
+      <crowd-checkbox name="length" value="pt_1+">More than 2 years</crowd-checkbox>
+      <crowd-checkbox name="length" value="pt_native">Native</crowd-checkbox>
+      <br/><br/>
+      <crowd-checkbox name="lang" value="none">None of the above</crowd-checkbox>
+      <br/><br/><br/>
+  </div>
+  
+  <div style="margin-left: 5px"> 
+  <h4>What is your country of origin?</h4>
+  <crowd-input name="countryOrigin" placeholder="example: France" required></crowd-input>
+  </div>
+
+</crowd-form>

@@ -1,0 +1,68 @@
+<!-- You must include this JavaScript file -->
+<script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
+
+<!-- For the full list of available Crowd HTML Elements and their input/output documentation,
+      please refer to https://docs.aws.amazon.com/sagemaker/latest/dg/sms-ui-template-reference.html -->
+
+<!-- You must include crowd-form so that your task submits answers to MTurk -->
+<crowd-form answer-format="flatten-objects">
+
+
+    <crowd-classifier 
+      header="Choose the option that best described the relation between the meaning of the two sentences. (Make sure you have read the full instructions before performing the task)"
+      name="semantic_similarity"
+      categories="['1 Completely dissimilar', '2 Not equivalent but on same topic', '3 Not equivalent but share some details', '4 Roughly equivalent', '5 Mostly equivalent', '6 Completely equivalent']" 
+    >
+    <classification-target>
+    <p>
+        <strong>Sentence1 : </strong>
+        ${informal}
+    </p>
+    <p>
+        <strong>Sentence2 : </strong>
+        ${rewrite}
+    </p>
+    </classification-target>
+
+
+    <short-instructions>
+        Compare the meaning of the two sentences in Italian. <strong>Please refer to the full instructions before performing the task.</strong>
+    </short-instructions>
+
+    <full-instructions header="Task instructions">
+        <p>
+         Two snippets of text can mean the same thing even if they use very different words and phrases. Conversely, two texts
+         that are superficially very similar in their word choice, phrasing and overall composition can have very different
+         meanings. 
+        </p>
+        
+        <p>
+        For this task, you will compare two phrase or sentence length segments of text and select whether or not they have the
+        same underlying meaning or message in terms of what they refer to, say or ask about the world.
+        </p>
+        
+        <p>
+        For example, do both snippets refer to the exact same person, action, event, idea or thing? Or, are they similar but
+        differ according to either large or small details?
+         
+         <p><strong>Tips</strong></p>
+         
+         <ul>
+          <li> Assign labels as precisely as possible according to the <strong>underlying meaning of the two snippets
+          rather than their superficial similarities of differences.</strong></li>
+
+          <li> Be careful of wording differences that have an important impact on what is being said or described.</li>
+          <li> Ignore grammatical errors and awkward wording as long as they do not obscure what is being conveyed. </li>
+          <li> Avoid over labeling pairs with middle range scores such as "<strong>4 Roughly equivalent</strong>..." or
+           "<strong>2 Not equivalent</strong>, but share some details".</li>
+          <li> Similarly, be careful of over reliance on extreme scores like "<strong>6 Completely equivalent</strong>,..." or
+          "<strong>1 Completely dissimilar"</strong>.
+        </ul>
+         
+     
+    </full-instructions>
+
+   
+
+    </crowd-classifier>
+</crowd-form>
