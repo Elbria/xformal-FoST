@@ -1,34 +1,29 @@
 # XFORMAL: A Benchmark for Multilingual Formality Style Transfer
 
-This repository contains code and data from the NAACL 2021 paper that can be found [here]()!
+A description of the XFORMAL corpus can be found in our NAACL 2021 paper “Olá, Bonjour, Salve! XFORMAL: A Benchmark for Multilingual Formality Style Transfer”:
+[https://aclanthology.org/2021.naacl-main.256.pdf](https://aclanthology.org/2021.naacl-main.256.pdf)
+[https://arxiv.org/pdf/2104.04108.pdf](https://arxiv.org/pdf/2104.04108.pdf)
 
-## Table of contents
+For any questions, please contact Eleftheria Briakou (ebriakou@cs.umd.edu) and Joel Tetreault (tetreaul@gmail.com).
 
-* Mturk: Amazon Mechanical Turk templates, qualification tests, and annotations results.
-* XFORMAL: dataset consisting of informal sentences with multiple human generated formality rewrites in Brazilian Portuguese, Italian, and French.
-* rule_based: scripts for replicating rule based formality style transfer in the three languages of XFORMAL.
+## Obtaining XFORMAL
 
-## Contact
+The XFORMAL corpus was created using the Yahoo Answers corpus: [L6 - Yahoo! Answers Comprehensive Questions and Answers version 1.0](https://webscope.sandbox.yahoo.com/catalog.php?datatype=l).  Access to XFORMAL requires users to first gain access to L6 via [Yahoo Webscope](https://webscope.sandbox.yahoo.com/catalog.php?datatype=l).  Once you have obtained access, please forward the acknowledgement (forward the approval email or screenshot the download page) to Joel Tetreault (tetreaul@gmail.com), along with your affiliation and a short description of how you will be using the data, and we will email the XFORMAL dataset.
 
-If you use any contents of this repository, please cite us. For any questions, write to ebriakou@cs.umd.edu.
+Please note that the XFORMAL set is 22MB which may be too large for many email clients.  
 
-## GYAFC translated
+The XFORMAL dataset contains the following subdirectories.  Note the mturk and rule_based portions can also be downloaded from this repository above.
 
-Access to GYAFC translated requires that you first have granted permission to access the [original corpus](https://github.com/raosudha89/GYAFC-corpus)!(short desciption below)
+* `gyafc_translated`: the GYAFC translated into Brazilian Portuguese, Italian, and French.  Note that in the test subdirectories, "informal.ref0" refers to one set of informal rewrites of "formal".  Conversely, "formal.ref3" refers to one set of formal rewrites of "informal".
 
-The GYAFC corpus was created using the Yahoo Answers corpus: [L6 - Yahoo! Answers Comprehensive Questions and Answers version 1.0](https://webscope.sandbox.yahoo.com/catalog.php?datatype=l) . This Yahoo Answers corpus can be requested free of charge for research purposes. 
-Access to all versions of the GYAFC dataset will require users to first gain access to this Yahoo Answers corpus.
+* `mturk`: Amazon Mechanical Turk templates, qualification tests, and annotations results. 
 
-Once you have gained access to the L6 corpus, please forward the acknowledgment to Joel Tetreault (tetreaul@gmail.com), along with your affiliation and a short description of how you will be using the data, and we will provide access to GYAFC translated corpora.
- 
-```
-@inproceedings{briakou-etal-2021-xformal,
-    title = "XFORMAL: A Benchmark for Multilingual Formality Style Transfer",
-    author = "Briakou, Eleftheria and Lu, Di and Zhang, Ke and Tetreault, Joel",
-    booktitle = "Proceedings of the 2021 Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)",
-    year = "2021",
-    address = "Online",
-    publisher = "Association for Computational Linguistics"
-}
-```
+* `papers`: the XFORMAL and GYAFC papers downloaded from arxiv on May 29.
 
+* `rule_based`: scripts for replicating rule based formality style transfer in the three languages of XFORMAL.
+
+* `xformal_eval`: dataset consisting of informal sentences with multiple human generated formality rewrites in Brazilian Portuguese, Italian, and French.
+
+## Referencing XFORMAL
+
+When making use of the corpus, scripts, translations or mturk templates, please cite our paper with the following bib file:  [https://aclanthology.org/2021.naacl-main.256.bib](https://aclanthology.org/2021.naacl-main.256.bib)
